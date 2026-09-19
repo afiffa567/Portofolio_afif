@@ -62,7 +62,7 @@ export default function AboutPage() {
     },
     {
       title: "Recruitment & Onboarding",
-      desc: "Screened ~150 candidates for 5 staff vacancies, scheduled interviews, conducted Behavioral Event Interviews (BEI), and orchestrated structured onboarding programs.",
+      desc: "Screened 150 candidates for 5 staff vacancies, scheduled interviews, conducted Behavioral Event Interviews (BEI), and orchestrated structured onboarding programs.",
       icon: CheckCircle2,
       color: "text-blue-500",
       bg: "bg-blue-500/10",

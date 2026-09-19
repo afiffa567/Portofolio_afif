@@ -1,4 +1,4 @@
-import { HomeIcon, NotebookIcon, UserIcon, Sparkles } from "lucide-react";
+import { HomeIcon, NotebookIcon, UserIcon, Sparkles, Briefcase, FileText } from "lucide-react";
 import { Icons } from "@/components/icons";
 
 export const DATA = {
@@ -73,17 +73,23 @@ Certified across HR Generalist, HRGA Staff, eBootcamp HR, and Jago Payroll compe
     email: "afiffaisalalamsyah567@gmail.com",
     tel: "+62 822-2963-4571",
     social: {
-      LinkedIn: {
-        name: "LinkedIn",
-        url: "https://linkedin.com/in/afiffaisalalamsyah",
-        icon: Icons.linkedin,
+      Portfolio: {
+        name: "Portfolio",
+        url: "https://bit.ly/PortoHAfif",
+        icon: Briefcase,
         navbar: true,
       },
       CV: {
         name: "Download CV",
         url: "https://drive.google.com/file/d/1Igp6TjQTjyX_awJH9olFJxRsIf2q8tf1/view",
-        icon: Icons.cv,
+        icon: FileText,
         navbar: true,
+      },
+      LinkedIn: {
+        name: "LinkedIn",
+        url: "https://linkedin.com/in/afiffaisalalamsyah",
+        icon: Icons.linkedin,
+        navbar: false,
       },
     },
   },

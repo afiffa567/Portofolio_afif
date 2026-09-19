@@ -235,6 +235,26 @@ export const Icons = {
     </svg>
   ),
 
+  portfolio: (props: IconProps) => (
+    <svg viewBox="0 0 24 24" fill="none" {...props}>
+      <rect width="24" height="24" rx="4.5" fill="#2563EB" />
+      <path
+        d="M9 7C9 5.89543 9.89543 5 11 5H13C14.1046 5 15 5.89543 15 7V8.5H9V7Z"
+        stroke="white"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+      />
+      <rect x="4" y="8" width="16" height="11.5" rx="2" fill="white" />
+      <path
+        d="M4 12C7.5 13.5 16.5 13.5 20 12"
+        stroke="#2563EB"
+        strokeWidth="1.4"
+        strokeLinecap="round"
+      />
+      <rect x="10.5" y="11" width="3" height="2.5" rx="0.6" fill="#2563EB" />
+    </svg>
+  ),
+
   cv: (props: IconProps) => (
     <svg viewBox="0 0 24 24" fill="none" {...props}>
       <rect width="24" height="24" rx="4.5" fill="#E11D48" />

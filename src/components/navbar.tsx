@@ -17,6 +17,11 @@ const navColors: Record<string, string> = {
   "/ai": "text-purple-500 hover:text-purple-600",
 };
 
+const socialColors: Record<string, string> = {
+  Portfolio: "text-amber-500 hover:text-amber-600",
+  CV: "text-rose-500 hover:text-rose-600",
+};
+
 export default function Navbar() {
   return (
     <div className="pointer-events-none fixed inset-x-0 bottom-0 z-30 mx-auto mb-4 flex origin-bottom h-full max-h-14">
@@ -51,12 +56,19 @@ export default function Navbar() {
                 <TooltipTrigger asChild>
                   <Link
                     href={social.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className={cn(
                       buttonVariants({ variant: "ghost", size: "icon" }),
                       "size-12"
                     )}
                   >
-                    <social.icon className="size-4 shrink-0 transition-transform group-hover:scale-110" />
+                    <social.icon
+                      className={cn(
+                        "size-4 shrink-0 transition-transform group-hover:scale-110",
+                        socialColors[name] || "text-foreground"
+                      )}
+                    />
                   </Link>
                 </TooltipTrigger>
                 <TooltipContent>
