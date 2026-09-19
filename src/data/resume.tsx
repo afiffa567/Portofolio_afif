@@ -81,7 +81,7 @@ Certified across HR Generalist, HRGA Staff, eBootcamp HR, and Jago Payroll compe
       },
       CV: {
         name: "Download CV",
-        url: "https://drive.google.com/file/d/1jPOZqMHj_qjvy1qPkKbGCpt05nfTF8E6/view?usp=sharing",
+        url: "https://drive.google.com/file/d/1Igp6TjQTjyX_awJH9olFJxRsIf2q8tf1/view",
         icon: Icons.cv,
         navbar: true,
       },
@@ -95,7 +95,7 @@ Certified across HR Generalist, HRGA Staff, eBootcamp HR, and Jago Payroll compe
       badges: [],
       location: "Pasuruan, East Java",
       title: "Human Resources Department (HRD)",
-      logoUrl: "/universitas.png",
+      logoUrl: "/baop.webp",
       start: "Jan 2026",
       end: "May 2026",
       description: `• Managed employee administration and maintained accurate personnel records for 30 internal employees, ensuring complete, confidential, and up-to-date HR documentation.
